@@ -2,6 +2,9 @@
 
 一个从 Obsidian 自动同步并发布到 GitHub Pages 的个人知识站。
 
+- GitHub 仓库：https://github.com/ralapili-alt/ai-plus
+- 网站地址：https://ralapili-alt.github.io/ai-plus/
+
 ## 日常使用
 
 1. 使用 Obsidian 打开当前文件夹。
