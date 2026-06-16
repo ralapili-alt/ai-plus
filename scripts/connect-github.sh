@@ -16,7 +16,8 @@ cd "$REPO_DIR"
 
 git remote remove origin >/dev/null 2>&1 || true
 git remote add origin "$REMOTE_URL"
-git push -u origin main
+git fetch origin main >/dev/null 2>&1 || true
+git push -u origin main --force-with-lease
 
 mkdir -p "$HOME/Library/LaunchAgents"
 cp "$PLIST_SOURCE" "$PLIST_TARGET"
